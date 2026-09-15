@@ -1,10 +1,14 @@
 # Course Notes to Presentation
 
-把课程笔记、视频字幕、访谈稿、读书笔记或已有 PPT，整理成可信、生动、可直接使用的 PPT 文案和逐页演讲稿。
+## Skill 简介
 
-The skill turns course notes, lecture transcripts, interviews, reading notes, or an existing deck into source-aware slide copy and a page-aligned speech script. It also supports timed, bilingual English classroom presentations.
+这是一个面向课程汇报和学术分享的 Codex Skill。它可以把课程笔记、视频字幕、访谈稿、读书笔记或已有 PPT，整理成可信、生动、控时且可直接使用的 PPT 文案和逐页演讲稿。
 
-## What it adds
+它尤其适合制作简洁的课堂 PPT、8–10 分钟英语汇报、中英双语讲稿，以及需要故事引导、主题回环、现场提问和语言标记的演讲。
+
+This Codex Skill turns course notes, lecture transcripts, interviews, reading notes, or an existing deck into source-aware slide copy and a page-aligned speech script. It also supports timed, bilingual English classroom presentations.
+
+## 核心能力
 
 - separates source facts, speaker opinions, reasonable inference, and uncertainty;
 - writes exact on-screen words instead of vague slide suggestions;
@@ -59,6 +63,7 @@ The skill also allows implicit invocation when the request clearly matches its p
 ```text
 course-notes-to-presentation/
 ├── SKILL.md
+├── LICENSE
 ├── agents/
 │   └── openai.yaml
 └── references/
@@ -82,7 +87,7 @@ Replace `YOUR-NAME` and the remote URL with your own account and repository addr
 
 ## License
 
-No license is included yet. Before public release, choose a license that matches how you want others to reuse and modify the skill. MIT is a common permissive choice for reusable skill repositories.
+This project is released under the [MIT License](LICENSE). You may use, copy, modify, and redistribute it under the license terms.
 
 ## Contributing
 
