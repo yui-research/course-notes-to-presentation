@@ -21,13 +21,13 @@ The skill turns course notes, lecture transcripts, interviews, reading notes, or
 If `CODEX_HOME` is configured:
 
 ```powershell
-git clone https://github.com/YOUR-NAME/course-notes-to-presentation.git "$env:CODEX_HOME\skills\course-notes-to-presentation"
+git clone https://github.com/yui-research/course-notes-to-presentation.git "$env:CODEX_HOME\skills\course-notes-to-presentation"
 ```
 
 If it is not configured, clone into your personal Codex skills folder:
 
 ```powershell
-git clone https://github.com/YOUR-NAME/course-notes-to-presentation.git "$HOME\.codex\skills\course-notes-to-presentation"
+git clone https://github.com/yui-research/course-notes-to-presentation.git "$HOME\.codex\skills\course-notes-to-presentation"
 ```
 
 Restart Codex after installation if the skill is not discovered immediately.
@@ -35,7 +35,7 @@ Restart Codex after installation if the skill is not discovered immediately.
 ### macOS or Linux
 
 ```bash
-git clone https://github.com/YOUR-NAME/course-notes-to-presentation.git "${CODEX_HOME:-$HOME/.codex}/skills/course-notes-to-presentation"
+git clone https://github.com/yui-research/course-notes-to-presentation.git "${CODEX_HOME:-$HOME/.codex}/skills/course-notes-to-presentation"
 ```
 
 ## Use
