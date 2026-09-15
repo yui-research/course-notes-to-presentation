@@ -1,0 +1,7 @@
+interface:
+  display_name: "课程笔记演示助手"
+  short_description: "把课程材料整理成可信、生动、控时且可直接使用的PPT与逐页讲稿"
+  default_prompt: "Use $course-notes-to-presentation to turn these materials into timed, paste-ready slide copy and a page-aligned speech script."
+
+policy:
+  allow_implicit_invocation: true
